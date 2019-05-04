@@ -22,17 +22,26 @@ public class ExcelUtils {
 
 	}
 
-	public static void getRowCount() {
-
+	public static int getRowCount() {
+ 
 		int rowCount=sheet.getPhysicalNumberOfRows();
 		System.out.println("Row count:"+rowCount);
-
+		return rowCount;
 	}
 
-	public static void getCellDataString(int rowNum,int colNum) {
+	public static int getColCount() {
+
+		int colCount=sheet.getRow(0).getPhysicalNumberOfCells();
+		System.out.println("Column count:"+colCount);
+		return colCount;
+	}
+
+
+	public static String getCellDataString(int rowNum,int colNum) {
 
 		String cellData=sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
-		System.out.println(cellData);
+		//System.out.println(cellData);
+		return cellData;
 
 	}
 
