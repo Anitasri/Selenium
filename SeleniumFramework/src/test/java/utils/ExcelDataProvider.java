@@ -66,7 +66,7 @@ public class ExcelDataProvider {
 				String cellData=excel.getCellDataString(i,j);
 				System.out.print(cellData+"|");
 				data[i-1][j]=cellData; 
-			}
+			}  
 			System.out.println();
 		} 
 		return data;

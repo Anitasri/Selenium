@@ -26,4 +26,5 @@
             <appender-ref ref="console" />
         </Root>
     </Loggers>
-</Configuration>
+</Configuration>   
+
