@@ -51,7 +51,28 @@
 			<version>4.1.0</version>
 		</dependency>
 
-
-
+		<dependency>
+			<groupId>com.applitools</groupId>
+			<artifactId>eyes-selenium-java3</artifactId>
+			<version>RELEASE</version>
+		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<includes>
+						<include>TestNGGroupsDemo.java</include>
+					</includes>
+					<!-- <suiteXmlFiles> <suiteXmlFile>testng5.xml</suiteXmlFile> <suiteXmlFile>${testngFile}</suiteXmlFile> 
+						</suiteXmlFiles> -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>

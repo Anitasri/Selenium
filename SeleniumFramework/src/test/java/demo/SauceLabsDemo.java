@@ -19,7 +19,7 @@ public class SauceLabsDemo {
 		caps.setCapability("platform", "windows 10");
 		caps.setCapability("version", "latest");
 		caps.setCapability("name", "Searchtest1");
-		caps.setCapability("extendedDebugging", "true");
+		caps.setCapability("extendedDebugging","true");
 		
 		//Saucelab test
 		WebDriver driver = new RemoteWebDriver(new java.net.URL(URL), caps);
