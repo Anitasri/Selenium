@@ -28,20 +28,20 @@ public class ApplitoolsDemo {
 
 
 			// Start the test by setting AUT's name, window or the page name that's being tested, viewport width and height
-			eyes.open(driver, "HelloWorld!","My first selenium java test", new RectangleSize(600, 800));
+			eyes.open(driver, "HelloWorld!","My first selenium java test", new RectangleSize(800, 600));
 
 			// Navigate the browser to the "ACME" demo app
-			driver.get("https://applitools.com/helloworld");
+			driver.get("https://applitools.com/helloworld?diff2");
 
 			// Visual checkpoint #1.
-			eyes.checkWindow("Login window");
-			
+			eyes.checkWindow("Hello");
+
 			//Click the click me button
 			driver.findElement(By.tagName("button")).click();
 
 			//Visual checkpoint #2
 			eyes.checkWindow("Click!");
-			
+
 			//🌟 Note: You can have multiple "checkWindow" to create multiple test steps within a test.🌟  
 			//For example, you may want to test errors in the login window after clicking a login button,
 			//In that case, you may add the following before you call eyes.close(). 

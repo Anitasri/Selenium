@@ -19,7 +19,7 @@ public class AutoITDemo {
 		
 		driver.get("http://tinyupload.com/");
 		driver.findElement(By.name("uploaded_file")).click();
-		Runtime.getRuntime().exec("D:\\FileUploadScript");
+		Runtime.getRuntime().exec("C:\\New folder\\FileUploadScript");
  
 		Thread.sleep(3000);
 		

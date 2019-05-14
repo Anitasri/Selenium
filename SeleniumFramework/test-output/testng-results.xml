@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79678" started-at="2019-05-11T14:59:17Z" finished-at="2019-05-11T15:00:37Z">
+  <suite name="Default suite" duration-ms="14361" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79678" started-at="2019-05-11T14:59:17Z" finished-at="2019-05-11T15:00:37Z">
-      <class name="demo.FluentWaitDemo">
-        <test-method status="PASS" signature="test()[pri:0, instance:demo.FluentWaitDemo@343f4d3d]" name="test" duration-ms="79451" started-at="2019-05-11T14:59:17Z" finished-at="2019-05-11T15:00:37Z">
+    <test name="Default test" duration-ms="14361" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
+      <class name="demo.SauceLabsDemo">
+        <test-method status="PASS" signature="test()[pri:0, instance:demo.SauceLabsDemo@73846619]" name="test" duration-ms="14341" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- demo.FluentWaitDemo -->
+      </class> <!-- demo.SauceLabsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

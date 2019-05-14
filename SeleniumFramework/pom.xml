@@ -65,11 +65,11 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-					<includes>
-						<include>TestNGGroupsDemo.java</include>
-					</includes>
-					<!-- <suiteXmlFiles> <suiteXmlFile>testng5.xml</suiteXmlFile> <suiteXmlFile>${testngFile}</suiteXmlFile> 
-						</suiteXmlFiles> -->
+					<includes> <include>SeleniumWaitDemo.java</include> </includes>
+					<!-- <suiteXmlFiles>
+						<suiteXmlFile>testng5.xml</suiteXmlFile>
+						<suiteXmlFile>${testngFile}</suiteXmlFile>
+					</suiteXmlFiles> -->
 				</configuration>
 			</plugin>
 		</plugins>

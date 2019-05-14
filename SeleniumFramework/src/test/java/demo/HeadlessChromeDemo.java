@@ -21,6 +21,7 @@ public class HeadlessChromeDemo {
 	
 	WebDriver driver= new ChromeDriver(options);
 	
+	System.out.println("Started");
 	driver.get("https://bing.com/");
 	System.out.println(driver.getTitle());
 	driver.findElement(By.id("sb_form_q")).sendKeys("Auto");
