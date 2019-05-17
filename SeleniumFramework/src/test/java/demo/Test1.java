@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Tset1 {
+public class Test1 {
 	private WebDriver driver;
 	private String baseUrl;
 	private boolean acceptNextAlert = true;
