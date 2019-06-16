@@ -29,13 +29,15 @@ public class ExcelDataProvider {
 		driver= new ChromeDriver();
 	}
 
-
+	/*TestNG @DataProvider – Test parameters example. An important features provided by TestNG 
+	is the testng DataProvider feature. It helps you to write data-driven tests which essentially means 
+	that same test method can be run multiple times with different data-set*/
 
 	@Test(dataProvider="test1data")
 	public void test1(String username,String password) throws Exception {
 
 		System.out.println(username+"|"+password);
-		
+
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.findElement(By.id("txtUsername")).sendKeys(username);
 		driver.findElement(By.id("txtPassword")).sendKeys(password);

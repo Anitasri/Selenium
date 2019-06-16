@@ -45,6 +45,7 @@
 			<version>2.11.2</version>
 		</dependency>
 
+		<!-- For Excel usage -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
@@ -61,15 +62,19 @@
 	<build>
 		<plugins>
 			<plugin>
+				<!-- Maven sure fire plugin is used to follow the sequence of tests in 
+					testng.xml file. If we don't include the Mavwen surefire plugin then it will 
+					execute all the testcases under src/test/java which has prefix or suffix 
+					as 'test' and these tests will get executed without any sequence -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-					<includes> <include>SeleniumWaitDemo.java</include> </includes>
-					<!-- <suiteXmlFiles>
-						<suiteXmlFile>testng5.xml</suiteXmlFile>
-						<suiteXmlFile>${testngFile}</suiteXmlFile>
-					</suiteXmlFiles> -->
+					<includes>
+						<include>SeleniumWaitDemo.java</include>
+					</includes>
+					<!-- <suiteXmlFiles> <suiteXmlFile>testng5.xml</suiteXmlFile> <suiteXmlFile>${testngFile}</suiteXmlFile> 
+						</suiteXmlFiles> -->
 				</configuration>
 			</plugin>
 		</plugins>
