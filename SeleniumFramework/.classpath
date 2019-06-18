@@ -35,6 +35,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/anitsrin/Downloads/Flash.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/anitsrin/Downloads/sikulixapi-1.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

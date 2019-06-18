@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14361" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
+  <suite name="Default suite" duration-ms="13704" started-at="2019-06-17T11:56:54Z" finished-at="2019-06-17T11:57:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14361" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
-      <class name="demo.SauceLabsDemo">
-        <test-method status="PASS" signature="test()[pri:0, instance:demo.SauceLabsDemo@73846619]" name="test" duration-ms="14341" started-at="2019-05-13T14:20:37Z" finished-at="2019-05-13T14:20:52Z">
+    <test name="Default test" duration-ms="13704" started-at="2019-06-17T11:56:54Z" finished-at="2019-06-17T11:57:08Z">
+      <class name="guru99.Ajaxdemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:guru99.Ajaxdemo@3c0f93f1]" name="setUp" is-config="true" duration-ms="12093" started-at="2019-06-17T11:56:54Z" finished-at="2019-06-17T11:57:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- demo.SauceLabsDemo -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_AjaxExample()[pri:0, instance:guru99.Ajaxdemo@3c0f93f1]" name="test_AjaxExample" duration-ms="1594" started-at="2019-06-17T11:57:06Z" finished-at="2019-06-17T11:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AjaxExample -->
+      </class> <!-- guru99.Ajaxdemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
